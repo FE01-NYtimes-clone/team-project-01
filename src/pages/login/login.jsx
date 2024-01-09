@@ -100,14 +100,6 @@ const Login = (props) => {
             Continue
           </button>
         </form>
-        <div className="link-btn-box">
-          <button
-            className="link-btn"
-            onClick={() => props.onFormSwitch("register")}
-          >
-            Don't have an account? Register
-          </button>
-        </div>
       </div>
     </div>
   );
