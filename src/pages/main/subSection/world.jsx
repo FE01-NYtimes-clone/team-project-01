@@ -77,7 +77,7 @@ function World() {
           fontWeight: 'bold',
           color: 'black',
           borderBottom: '1px solid #d6d8db',
-          margin: '0 20px',
+          // margin: '0 20px',
           paddingBottom: '5px',
           fontFamily: "'WarhavenB', sans-serif",
         }}
@@ -86,9 +86,9 @@ function World() {
       </div>
       <div
         style={{
-          margin: '0 20px 0 20px',
+          // margin: '0 20px 0 20px',
           fontSize: '15px',
-          borderBottom: 'thick double',
+          borderBottom: '2px solid black',
           marginTop: '8px',
           paddingBottom: '8px',
         }}
