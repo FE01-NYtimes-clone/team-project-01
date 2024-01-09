@@ -17,7 +17,7 @@ body {
 .login-text {
   display: flex;
   justify-content: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: large;
   font-weight: bold;
 }
@@ -34,7 +34,7 @@ body {
 
 label {
   text-align: left;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   padding: 0.25rem 0;
 }
 
@@ -62,9 +62,13 @@ button {
   text-decoration: underline;
 }
 
+.link-btn-box {
+  text-align: center;
+}
+
 .errorMessage {
   text-align: left;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: small;
   color: red;
 }

@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import './login.css';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import "./login.css";
+import { useNavigate } from "react-router-dom";
 
 const User = {
-  email: 'soojin0869@gmail.com',
-  password: '!tnwls0869',
+  email: "soojin0869@gmail.com",
+  password: "!tnwls0869",
 };
 
 const Login = (props) => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const [emailValid, setEmailValid] = useState(false);
   const [passwordValid, setPasswordValid] = useState(false);
@@ -40,10 +40,10 @@ const Login = (props) => {
 
   const onClickConfirmButton = () => {
     if (email === User.email && password === User.password) {
-      alert('Success');
-      navigate('/main');
+      alert("Success");
+      navigate("/main");
     } else {
-      alert('Try Again');
+      alert("Try Again");
     }
   };
 
@@ -100,10 +100,10 @@ const Login = (props) => {
             Continue
           </button>
         </form>
-        <div>
+        <div className="link-btn-box">
           <button
             className="link-btn"
-            onClick={() => props.onFormSwitch('register')}
+            onClick={() => props.onFormSwitch("register")}
           >
             Don't have an account? Register
           </button>

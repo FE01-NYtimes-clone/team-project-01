@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./login.css";
 
 const User = {
@@ -36,9 +37,18 @@ const Register = (props) => {
     }
   };
 
+  /* const onClickConfirmButton = () => {
+    if (email === User.email && password === User.password) {
+      alert("Thanks for Register");
+    } else {
+      alert("Please try again");
+    }
+  }; */
+
   const onClickConfirmButton = () => {
     if (email === User.email && password === User.password) {
       alert("Thanks for Register");
+      navigate("/login");
     } else {
       alert("Please try again");
     }
